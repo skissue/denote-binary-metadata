@@ -2,7 +2,7 @@
 
 ;; Author: Ad <me@skissue.xyz>
 ;; Version: 0.1.0
-;; Package-Requires: ((emacs "24.1") (denote) (exiftool))
+;; Package-Requires: ((emacs "24.1") (denote) (exiftool "0.3.2"))
 ;; Homepage: https://github.com/skissue/denote-binary-metadata
 
 
@@ -27,6 +27,8 @@
 ;; (WIP) Store Denote metadata in binary filetypes
 
 ;;; Code:
+
+(require 'exiftool)
 
 
 
